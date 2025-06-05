@@ -2,7 +2,7 @@
 
 ## Goal
 
-In this 30-40 minute live coding session, you will implement two core API endpoints for a simplified online ticket booking system using PHP and the Laravel framework. The focus will be on implementing the logic correctly, writing clean code, and creating unit tests for the booking functionality.
+In this live coding session, you will implement two core API endpoints for a simplified online ticket booking system using PHP and the Laravel framework. The focus will be on implementing the logic correctly, writing clean code, and creating unit tests for the booking functionality.
 
 **Prerequisites:** Please ensure you have the following installed and ready:
 * PHP 8.1+ with SQLite extension enabled
