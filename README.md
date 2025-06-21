@@ -2,7 +2,7 @@
 
 ## Goal
 
-In this live coding session, you will implement two core API endpoints for a simplified online ticket booking system using PHP and the Laravel framework. The focus will be on implementing the logic correctly, writing clean code, and creating unit tests for the booking functionality.
+Implement two core API endpoints for a simplified online ticket booking system using PHP and the Laravel framework. The focus will be on implementing the logic correctly, writing clean code, and creating unit tests for the booking functionality.
 
 **Prerequisites:** Please ensure you have the following installed and ready:
 * PHP 8.1+ with SQLite extension enabled
@@ -118,16 +118,6 @@ We'll focus on a specific event and the process of booking tickets for it.
 * **Test Setup:** Use Laravel's database testing features with `RefreshDatabase` trait.
 * **Test Structure:** Create at least 3-4 test methods covering the main scenarios.
 
-## 8. Implementation Guidance
-
-**Suggested Development Order:**
-1. Create migrations and models (5-8 minutes)
-2. Seed sample data (2-3 minutes)
-3. Create EventController for GET endpoint (5-7 minutes)
-4. Create BookingService class (8-10 minutes)
-5. Create BookingController for POST endpoint (5-7 minutes)
-6. Write unit tests for BookingService (10-12 minutes)
-
 **Sample Seeder Data:**
 ```php
 Event::create([
@@ -143,15 +133,6 @@ Event::create([
 ]);
 ```
 
-## 9. What to Skip (Due to time constraints)
-
-* Listing all events/bookings.
-* Updating or deleting events/bookings.
-* Complex error response structures (simple JSON message is fine).
-* Extensive README documentation (verbal explanation is fine).
-* Authentication/Authorization.
-* Bonus features from the longer exercise.
-* Full feature/integration tests for API endpoints (focus on unit tests for logic).
 
 ---
 
