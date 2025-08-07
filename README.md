@@ -40,11 +40,6 @@ We'll focus on a specific event and the process of booking tickets for it.
     * `created_at` (timestamp)
     * `updated_at` (timestamp)
 
-**Laravel Relationships:**
-* Event: `hasMany(Booking::class)`
-* Booking: `belongsTo(Event::class)`
-
-**Key Logic:** When a booking is made, `available_tickets` for the Event must decrease. This operation should be handled safely (e.g., within a database transaction).
 
 ## 5. API Endpoints (To Implement)
 
